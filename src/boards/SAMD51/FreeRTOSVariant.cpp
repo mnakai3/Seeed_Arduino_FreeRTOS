@@ -126,6 +126,8 @@ extern "C"
     {
       taskYIELD();
     }
+    TinyUSB_Device_Task();
+    TinyUSB_Device_FlushCDC();
   }
 
 #ifdef __cplusplus
